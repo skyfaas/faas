@@ -1,6 +1,8 @@
 # SkyFaaS ® - Serverless platform made with Node.js
 
-<img src="assets/SkyFaaS-logo.png" alt="SkyFaaS logo" style="display: block; margin: 0 auto" />
+<p align="center">
+    <img src="assets/SkyFaaS-logo.png" alt="SkyFaaS logo" style="display: block; margin: 0 auto" />
+</p>
 
 SkyFaaS is a cloud-native, Function-as-a-Service (FaaS) platform written in Node.js and TypeScript, designed to run
 serverless functions at scale.
