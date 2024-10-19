@@ -8,11 +8,17 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -b",
+    "build:dev": "tsc -b --watch"
   },
   "author": "Javad Ghasemi",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.6.3"
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "prettier": "3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
   }
 }
