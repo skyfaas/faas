@@ -1,0 +1,24 @@
+{
+  "name": "skyfaas",
+  "version": "0.1.0",
+  "description": "SkyFaaS ® - Serverless platform made with Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skyfaas/faas"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "build:dev": "tsc -b --watch"
+  },
+  "author": "Javad Ghasemi",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "prettier": "3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.10.0"
+  }
+}
